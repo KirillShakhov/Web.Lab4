@@ -46,13 +46,13 @@ const AuthForm = () => {
 
             <form onSubmit={handleSubmit}>
                 <div className="form-group">
-                    <label className="main-label">Username</label>
+                    <label className="main-label">Имя пользователя</label>
                     <input type="text" name="username"
                            value={username} onChange={handleChange}
                            className={'default-text-input' + (hasError ? ' is-invalid' : '')} />
                 </div>
                 <div className="form-group">
-                    <label className="main-label">Password</label>
+                    <label className="main-label">Пароль</label>
                     <input type="password" name="password"
                            value={password} onChange={handleChange}
                            className={'default-text-input' + (hasError ? ' is-invalid' : '')} />
@@ -64,14 +64,15 @@ const AuthForm = () => {
                                 data-typerequest="login"
                                 onClick={changeRequestType.bind(this)}
                         >
-                            Login
+                            Войти
                         </button>
                         <button className="default-btn btn-secondary"
                                 disabled={isFetching}
                                 data-typerequest="register"
                                 onClick={changeRequestType.bind(this)}
                         >
-                            Register
+                            Зарегистрироваться
+
                         </button>
                     </div>
                 </div>

@@ -22,14 +22,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b12f9530-58cd-493f-aa2d-05030faae8ae" name="Default Changelist" comment="fix Spring">
+    <list default="true" id="b12f9530-58cd-493f-aa2d-05030faae8ae" name="Default Changelist" comment="little changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FrontEnd/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontEnd/src/components/navbar/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/src/components/navbar/Navbar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontEnd/src/components/point-form/PointForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/src/components/point-form/PointForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontEnd/src/components/table/PointsTable.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/src/components/table/PointsTable.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontEnd/src/pages/HomePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/src/pages/HomePage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontEnd/src/pages/auth/LoginPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/src/pages/auth/LoginPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/src/components/auth-form/AuthForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/src/components/auth-form/AuthForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/src/components/card/card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/src/components/card/card.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/src/components/table/table.scss" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/src/components/table/table.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/src/styles/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/src/styles/global.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610671406665</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="little changes">
+      <created>1610675380017</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1610675380017</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,12 +200,33 @@
     <MESSAGE value="init lab(new)" />
     <MESSAGE value="fix README.md" />
     <MESSAGE value="fix Spring" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix Spring" />
+    <MESSAGE value="little changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="little changes" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="730" y="145" width="579" height="534" key="find.popup" timestamp="1610675121982">
+    <state x="722" y="145" key="Vcs.Push.Dialog.v2" timestamp="1610675385038">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="730" y="145" width="579" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1610675121982" />
+    <state x="722" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1610675385038" />
+    <state x="838" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610675288470">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="838" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1610675288470" />
+    <state x="730" y="145" width="579" height="534" key="find.popup" timestamp="1610679067504">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="730" y="145" width="579" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1610679067504" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/FrontEnd/src/components/point-form/PointForm.tsx</url>
+          <line>54</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
