@@ -36,7 +36,7 @@ nav {
   .toggler-responsive {
     display: none;
   }
-  @media screen and (max-width: 757px) {
+  @media screen and (max-width: 748px) {
     & :not(:first-child) {display: none;}
     & .toggler-responsive {
       display: block;

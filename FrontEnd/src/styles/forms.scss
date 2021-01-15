@@ -5,7 +5,7 @@
   align-items: center;
   label.main-label {
     margin-right: 0.8rem;
-    @media screen and (max-width: 757px) {
+    @media screen and (max-width: 748px) {
       & {
         font-size: 1.3rem;
       }
@@ -17,7 +17,7 @@
   margin-right: 1rem;
   margin-bottom: 0.5rem;
   align-items: center;
-  @media screen and (max-width: 757px) {
+  @media screen and (max-width: 748px) {
     & {
       font-size: 1.3rem;
       margin-right: 1.8rem;
@@ -50,7 +50,7 @@
   -webkit-print-color-adjust: exact;
   color-adjust: exact;
   transition: background-color 0.15s ease-in-out, background-position 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  @media screen and (max-width: 757px) {
+  @media screen and (max-width: 748px) {
     & {
       width: 2rem;
       height: 2rem;
@@ -113,7 +113,7 @@
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  @media screen and (max-width: 757px) {
+  @media screen and (max-width: 748px) {
     & {
       padding: 0.6rem 1rem;
       font-size: 1.2rem;
@@ -181,7 +181,7 @@
   line-height: 1.5;
   border-radius: 0.25rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  @media screen and (max-width: 757px) {
+  @media screen and (max-width: 748px) {
     & {
       display: block;
       width: 100%;

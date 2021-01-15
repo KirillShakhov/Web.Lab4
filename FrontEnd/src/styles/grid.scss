@@ -11,7 +11,7 @@
   text-align: center;
 }
 
-@media screen and (max-width: 757px) {
+@media screen and (max-width: 749px) {
   .flex-container {
     flex-direction: column-reverse;
     & > button {
@@ -28,7 +28,7 @@
   }
 }
 
-@media screen and (min-width: 758px) and (max-width: 1169px)  {
+@media screen and (min-width: 749px) and (max-width: 1169px)  {
   .flex-container {
     //flex-direction: column-reverse;
     & .card:first-child {
