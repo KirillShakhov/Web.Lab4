@@ -18,12 +18,12 @@ const LoginPage = () => {
                     <>
                         <div className="jumbotron">
                             <h1 className="text-align-center">
-                                Шахов Кирилл & Никита Федоров <br/> - P3232 - Var. 28254
+                                Шахов Кирилл(Back) Никита Федоров(Front) <br/> - P3232 Вариант 28254
                             </h1>
                         </div>
 
                         <div className="flex-container">
-                            <Card title="WELCOME!">
+                            <Card title="Здорова, православный!">
                                 <AuthForm />
                             </Card>
                         </div>

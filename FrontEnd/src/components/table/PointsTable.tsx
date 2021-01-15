@@ -7,12 +7,12 @@ const PointsTable = (points: IPointsArrProps) => {
         <table className="default-table table-striped table-hover">
             <thead>
                 <tr>
-                    <th>ID</th>
+                    <th>Номер</th>
                     <th>X</th>
                     <th>Y</th>
                     <th>R</th>
-                    <th>Result</th>
-                    <th>Creation Date</th>
+                    <th>Результат</th>
+                    <th>Дата запроса</th>
                 </tr>
             </thead>
             <tbody>

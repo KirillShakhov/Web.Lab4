@@ -19,9 +19,9 @@ const Navbar = () => {
             <a href="https://github.com/KirillShakhov/Web.Lab4">GitHub repository</a>
             {isAuthenticated ? (
                 <>
-                    <NavLink to="/">Home</NavLink>
-                    <span className="nav-username">{authSession?.username}</span>
-                    <a className={"default-btn btn-navbar"} href="#" onClick={() => dispatch(logout(authSession))}>Logout</a>
+                    <NavLink to="/">Нарния</NavLink>
+                    <span className="nav-username">{"Ваше имя:"+authSession?.username}</span>
+                    <a className={"default-btn btn-navbar"} href="#" onClick={() => dispatch(logout(authSession))}>Выйти (Не в окно)</a>
                 </>
             ) : (
                 <>

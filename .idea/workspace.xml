@@ -3,11 +3,33 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b12f9530-58cd-493f-aa2d-05030faae8ae" name="Default Changelist" comment="fix Spring">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FrontEnd/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FrontEnd/src/components/navbar/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/src/components/navbar/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/src/components/point-form/PointForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/src/components/point-form/PointForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/src/components/table/PointsTable.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/src/components/table/PointsTable.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/src/pages/HomePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/src/pages/HomePage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/src/pages/auth/LoginPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/src/pages/auth/LoginPage.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,6 +187,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -172,5 +195,11 @@
     <MESSAGE value="fix README.md" />
     <MESSAGE value="fix Spring" />
     <option name="LAST_COMMIT_MESSAGE" value="fix Spring" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="730" y="145" width="579" height="534" key="find.popup" timestamp="1610675121982">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="730" y="145" width="579" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1610675121982" />
   </component>
 </project>

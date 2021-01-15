@@ -66,7 +66,7 @@ const HomePage = () => {
     return(
         <>
             <div className="flex-container">
-                <Card title="Create a point!">
+                <Card title="Выберите координаты">
                     <PointForm valR={valR} setValR={setValR} submitPoint={submitPoint} />
                 </Card>
                 <Card>
