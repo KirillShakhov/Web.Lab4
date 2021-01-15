@@ -14,7 +14,7 @@ const PointValidator = (point: IPoint): string => {
         return `Y must be a number!`;
     } else if (!min(-5, point.y)) {
         return `Y must be bigger than -5 but is ${point.y}`;
-    } else if (!max(5, point.y)) {
+    } else if (!max(3, point.y)) {
         return `Y must be smaller than 5 but is ${point.y}`;
     }
 

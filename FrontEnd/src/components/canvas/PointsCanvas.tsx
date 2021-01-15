@@ -26,8 +26,8 @@ const PointsCanvas = ({points, submitPoint, valR, setValR}: IPointsArrProps & IP
         const getMousePos = (event: React.MouseEvent) => {
             const rect = canvas.getBoundingClientRect();
             return {
-                X: 300*(event.clientX - rect.left)/rect.width,
-                Y: 150*(event.clientY - rect.top)/rect.height
+                X: 350*(event.clientX - rect.left)/rect.width,
+                Y: 350*(event.clientY - rect.top)/rect.height
             };
         }
 
