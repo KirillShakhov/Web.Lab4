@@ -16,7 +16,7 @@ const Navbar = () => {
     return (
 
         <nav id="main-navbar" className={(responsiveOpen ? "responsive" : "")}>
-            <a href="https://sun9-72.userapi.com/impf/HJ17KuqdE2mKbDzKkqlVP3tXHWltncrxMratdA/lJCs7K9RbF8.jpg?size=937x713&quality=96&proxy=1&sign=75c3bd7fbd7e39fbd0b1d6720279e351&type=album"> ITMO 2021</a>
+            <a className="rainbow" href="https://sun9-72.userapi.com/impf/HJ17KuqdE2mKbDzKkqlVP3tXHWltncrxMratdA/lJCs7K9RbF8.jpg?size=937x713&quality=96&proxy=1&sign=75c3bd7fbd7e39fbd0b1d6720279e351&type=album"> ITMO 2021</a>
             <a href="https://github.com/KirillShakhov/Web.Lab4">GitHub repository</a>
             {isAuthenticated ? (
                 <>

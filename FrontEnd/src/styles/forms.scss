@@ -163,6 +163,13 @@
   background-color: #e9ecef;
   opacity: 1;
 }
+.rainbow {
+  background: linear-gradient(to right, red, orange, yellow, green, cyan, blue, violet);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 40px;
+  line-height: 40px;
+}
 
 .default-btn {
   display: inline-block;
