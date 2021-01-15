@@ -77,6 +77,9 @@ const PointForm = ({valR, setValR, submitPoint}: IPointFormProps) => {
                     <button className="default-btn btn-primary btn-block" disabled={isFetching}>
                         Добавить
                     </button>
+                    <button className="default-btn btn-primary btn-block">
+                        Очистить
+                    </button>
                 </div>
             </form>
         </>

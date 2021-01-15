@@ -1,5 +1,5 @@
 import {createBrowserHistory} from "history";
 
-const history = createBrowserHistory({ basename: '/~s288867/weblab4' });
+const history = createBrowserHistory({ basename: '/~s285896/weblab4' });
 
 export default history;
