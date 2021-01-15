@@ -22,13 +22,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b12f9530-58cd-493f-aa2d-05030faae8ae" name="Default Changelist" comment="little changes">
+    <list default="true" id="b12f9530-58cd-493f-aa2d-05030faae8ae" name="Default Changelist" comment="fix PointEntity">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FrontEnd/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontEnd/src/components/auth-form/AuthForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/src/components/auth-form/AuthForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontEnd/src/components/card/card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/src/components/card/card.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontEnd/src/components/table/table.scss" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/src/components/table/table.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontEnd/src/styles/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/src/styles/global.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/src/components/canvas/PointsCanvas.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/src/components/canvas/PointsCanvas.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/src/validators/PointValidator.ts" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/src/validators/PointValidator.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-api/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend-api/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +51,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -177,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610675380017</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="fix PointEntity">
+      <created>1610683540548</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1610683540548</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,21 +209,8 @@
     <MESSAGE value="fix README.md" />
     <MESSAGE value="fix Spring" />
     <MESSAGE value="little changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="little changes" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="722" y="145" key="Vcs.Push.Dialog.v2" timestamp="1610675385038">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="722" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1610675385038" />
-    <state x="838" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610675288470">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="838" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1610675288470" />
-    <state x="730" y="145" width="579" height="534" key="find.popup" timestamp="1610679067504">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="730" y="145" width="579" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1610679067504" />
+    <MESSAGE value="fix PointEntity" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix PointEntity" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -223,10 +218,13 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/FrontEnd/src/components/point-form/PointForm.tsx</url>
           <line>54</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
