@@ -18,7 +18,7 @@ const PointsTable = (points: IPointsArrProps) => {
             <tbody>
             {
                 points.points.map(point => {
-                    const parsedRes = point.result ? "inside" : "outside";
+                    const parsedRes = point.result ? "Hit" : "Miss";
                     const parsedDate = new Date(Date.parse(point.createTime)).toDateString();
                     return(
                         <tr key={point.id}>

@@ -34,10 +34,10 @@ public class PointController {
         PointEntity newPoint =
                 new PointEntity(pointRequest.getX(), pointRequest.getY(), pointRequest.getR(), getAuthUserAsEntity());
         if (newPoint.getR() < 0)
-            return ResponseEntity.badRequest().body(new String("R can not be negative!"));
+            return ResponseEntity.badRequest().body(new String("Радиус не может быть отрицательным!"));
         PointEntity PointWithID = pointRepository.save(newPoint);
 
-    return ResponseEntity.ok(new ObjWithMsgResponse<PointEntity>("PointEntity saved Successfully!", PointWithID));
+    return ResponseEntity.ok(new ObjWithMsgResponse<PointEntity>("Успех!", PointWithID));
     }
 
     //TODO structure it better to separate the point and user logic

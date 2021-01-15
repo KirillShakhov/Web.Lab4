@@ -15,7 +15,7 @@ const Navbar = () => {
     }
     return (
         <nav id="main-navbar" className={(responsiveOpen ? "responsive" : "")}>
-            <b>ITMO 2020</b>
+            <b>ITMO 2021</b>
             <a href="https://github.com/KirillShakhov/Web.Lab4">GitHub repository</a>
             {isAuthenticated ? (
                 <>
@@ -25,7 +25,7 @@ const Navbar = () => {
                 </>
             ) : (
                 <>
-                    <NavLink to="/login">Login</NavLink>
+                    <NavLink to="/login">Начало</NavLink>
                 </>
             )}
             <a href="#" className="toggler-responsive" onClick={() => toggleResponsive()}>

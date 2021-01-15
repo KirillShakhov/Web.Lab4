@@ -5,7 +5,7 @@
   margin-bottom: 1rem;
   color: #212529;
   text-align: center;
-  .inside {
+  .Hit {
     color: white;
     span {
       background-color: green;
@@ -13,7 +13,7 @@
 
     }
   }
-  .outside {
+  .Miss {
     color: white;
     span {
       background-color: red;

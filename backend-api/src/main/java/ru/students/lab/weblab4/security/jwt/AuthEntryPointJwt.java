@@ -21,12 +21,12 @@ public class AuthEntryPointJwt implements AuthenticationEntryPoint {
 
     @Override
     public void commence(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, AuthenticationException ex) throws IOException, ServletException {
-        LOG.error("Unauthorized error: {}", ex.getMessage());
+        LOG.error("Ошибка авторизации: {}", ex.getMessage());
 
 
         httpServletResponse.setContentType(MediaType.APPLICATION_JSON_VALUE);
         httpServletResponse.setStatus(HttpServletResponse.SC_UNAUTHORIZED);
-        httpServletResponse.getOutputStream().print("Unauthorized! " + ex.getMessage());
+        httpServletResponse.getOutputStream().print("Ошибка авторизации! " + ex.getMessage());
         httpServletResponse.getOutputStream().flush();
     }
 }
