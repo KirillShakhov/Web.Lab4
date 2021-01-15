@@ -11,6 +11,13 @@
   text-align: center;
 }
 
+@media screen and (min-width: 1169px) {
+  table.default-table {
+    color: #000000;
+    background-color: white;
+  }
+}
+
 @media screen and (max-width: 749px) {
   .flex-container {
     flex-direction: column-reverse;

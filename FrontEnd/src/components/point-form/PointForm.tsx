@@ -55,7 +55,7 @@ const PointForm = ({valR, setValR, submitPoint}: IPointFormProps) => {
                     <input type="text" name="y"
                            value={pointInput.y}
                            onChange={handleChange}
-                           className={'default-text-input' + (hasError ? ' is-invalid' : '')} />
+                           className={'default-text-inputY' + (hasError ? ' is-invalid' : '')} />
                 </div>
 
                 <div className="form-group">
@@ -76,9 +76,6 @@ const PointForm = ({valR, setValR, submitPoint}: IPointFormProps) => {
                 <div className="form-group">
                     <button className="default-btn btn-primary btn-block" disabled={isFetching}>
                         Добавить
-                    </button>
-                    <button className="default-btn btn-primary btn-block">
-                        Очистить
                     </button>
                 </div>
             </form>
