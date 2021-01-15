@@ -16,7 +16,7 @@ const Navbar = () => {
     return (
         <nav id="main-navbar" className={(responsiveOpen ? "responsive" : "")}>
             <b>ITMO 2020</b>
-            <a href="https://github.com/joseortiz9/WebLab4">GitHub repository</a>
+            <a href="https://github.com/KirillShakhov/Web.Lab4">GitHub repository</a>
             {isAuthenticated ? (
                 <>
                     <NavLink to="/">Home</NavLink>
