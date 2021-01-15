@@ -22,13 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b12f9530-58cd-493f-aa2d-05030faae8ae" name="Default Changelist" comment="fix">
-      <change afterPath="$PROJECT_DIR$/FrontEnd/src/components/point-form/form.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontEnd/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontEnd/src/components/point-form/PointForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/src/components/point-form/PointForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontEnd/src/styles/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/src/styles/global.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontEnd/src/styles/grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/src/styles/grid.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontEnd/src/utils/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/src/utils/config.ts" afterDir="false" />
+    <list default="true" id="b12f9530-58cd-493f-aa2d-05030faae8ae" name="Default Changelist" comment="hotfix">
+      <change beforePath="$PROJECT_DIR$/FrontEnd/src/components/navbar/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/src/components/navbar/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/src/styles/forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/src/styles/forms.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610697222965</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="hotfix">
+      <created>1610698853730</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1610698853730</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,6 +243,7 @@
     <MESSAGE value="pismak" />
     <MESSAGE value="pismak_r" />
     <MESSAGE value="fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix" />
+    <MESSAGE value="hotfix" />
+    <option name="LAST_COMMIT_MESSAGE" value="hotfix" />
   </component>
 </project>
