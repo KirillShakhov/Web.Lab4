@@ -54,9 +54,9 @@ public class PointEntity implements Serializable {
         if (x == null || y == null || r == null)
             throw new NullPointerException();
 
-        this.result = (x >= 0 && y >= 0 && y <= -(2*x) + r) //linear function
-                || (y >= 0 && x <= 0 && x >= -Math.sqrt(r * r - y * y)) //circular function
-                || (y <= 0 && x <= 0 && y >= -r && x >= -r); //lines on r
+        this.result = (x <= 0 && y <= 0 && y <= -x + r/2) //Треугольник
+                || (y >= 0 && x <= 0 && x >= -Math.sqrt(r/2 * r/2 - y * y)) //Круг
+                || (y <= 0 && x >= 0 && y >= -r && x <= -r/2); //Квадрат
     }
 
     @JsonIgnore

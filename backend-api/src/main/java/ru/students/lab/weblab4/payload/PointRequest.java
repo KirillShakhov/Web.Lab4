@@ -2,19 +2,13 @@ package ru.students.lab.weblab4.payload;
 
 import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;
-import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 
 public class PointRequest {
     @NotNull
     @Min(-5)
     @Max(3)
-    private Double x, r;
-
-    @NotNull
-    @Min(-5)
-    @Max(5)
-    private Double y;
+    private Double x, y, r;
 
     public PointRequest(Double x, Double y, Double r) {
         this.x = x;

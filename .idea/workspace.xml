@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b12f9530-58cd-493f-aa2d-05030faae8ae" name="Default Changelist" comment="init lab(new)">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="b12f9530-58cd-493f-aa2d-05030faae8ae" name="Default Changelist" comment="fix README.md">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-api/src/main/java/ru/students/lab/weblab4/models/PointEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend-api/src/main/java/ru/students/lab/weblab4/models/PointEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-api/src/main/java/ru/students/lab/weblab4/payload/PointRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend-api/src/main/java/ru/students/lab/weblab4/payload/PointRequest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +44,11 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="ts.external.directory.path" value="C:\Users\kiril\IdeaProjects\Web.Lab4\frontend\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kiril\IdeaProjects\Web.Lab4\img" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
@@ -84,7 +91,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610664894727</updated>
-      <workItem from="1610664896131" duration="5047000" />
+      <workItem from="1610664896131" duration="6307000" />
     </task>
     <task id="LOCAL-00001" summary="init lab(new)">
       <created>1610665512018</created>
@@ -128,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610669578372</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="fix README.md">
+      <created>1610670112930</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1610670112930</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,6 +162,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="init lab(new)" />
-    <option name="LAST_COMMIT_MESSAGE" value="init lab(new)" />
+    <MESSAGE value="fix README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix README.md" />
   </component>
 </project>
