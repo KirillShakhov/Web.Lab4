@@ -37,7 +37,7 @@ export const drawer = (canvas: HTMLCanvasElement, valR: number, points: IPointFe
         //circle on the left up
         canvasCtx.beginPath();
         canvasCtx.moveTo(getPhysicalX(0), getPhysicalY(0));
-        canvasCtx.arc(getPhysicalX(0), getPhysicalY(0), R, 3*Math.PI/2, Math.PI, true);
+        canvasCtx.arc(getPhysicalX(0), getPhysicalY(0), R/2, 3*Math.PI/2, Math.PI, true);
         canvasCtx.closePath();
         canvasCtx.fill();
         canvasCtx.stroke();
@@ -45,15 +45,15 @@ export const drawer = (canvas: HTMLCanvasElement, valR: number, points: IPointFe
         //square in the left down
         canvasCtx.strokeStyle = "rgba(29,75,161,0.8)";
         canvasCtx.fillStyle = "rgba(29,75,161,0.8)";
-        canvasCtx.fillRect(getPhysicalX(0), getPhysicalY(0), -R, R);
+        canvasCtx.fillRect(getPhysicalX(0), getPhysicalY(0), R/2, R);
 
         //triangle
         canvasCtx.strokeStyle = "rgba(144,130,55,0.8)";
         canvasCtx.fillStyle = "rgba(144,130,55,0.8)";
         canvasCtx.beginPath();
-        canvasCtx.moveTo(getPhysicalX(0), getPhysicalY(0) - R);
+        canvasCtx.moveTo(getPhysicalX(0), getPhysicalY(0) + R/2);
         canvasCtx.lineTo(getPhysicalX(0), getPhysicalY(0));
-        canvasCtx.lineTo(getPhysicalX(0)+R/2, getPhysicalY(0));
+        canvasCtx.lineTo(getPhysicalX(0)-R/2, getPhysicalY(0));
         canvasCtx.closePath();
         canvasCtx.fill();
         canvasCtx.stroke();

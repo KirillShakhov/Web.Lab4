@@ -2789,6 +2789,13 @@ bcrypt-pbkdf@^1.0.0:
   dependencies:
     tweetnacl "^0.14.3"
 
+belle@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/belle/-/belle-4.0.0.tgz#229e3364329c1bfd4d7d3c0475f65db65cdc4947"
+  integrity sha512-EqHy3AzStHY76C4zPLPtOZBFJf823HXBwWrM9kPpHhtzzJW4mdaPR1h5P/KgO99usvbm5KC+ARW6SdtcfTTipw==
+  dependencies:
+    exenv "^1.2.0"
+
 bfj@^7.0.2:
   version "7.0.2"
   resolved "https://registry.yarnpkg.com/bfj/-/bfj-7.0.2.tgz#1988ce76f3add9ac2913fd8ba47aad9e651bfbb2"
@@ -4881,6 +4888,11 @@ execa@^4.0.0:
     onetime "^5.1.0"
     signal-exit "^3.0.2"
     strip-final-newline "^2.0.0"
+
+exenv@^1.2.0:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/exenv/-/exenv-1.2.2.tgz#2ae78e85d9894158670b03d47bec1f03bd91bb9d"
+  integrity sha1-KueOhdmJQVhnCwPUe+wfA72Ru50=
 
 exit@^0.1.2:
   version "0.1.2"
